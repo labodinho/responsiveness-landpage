@@ -45,6 +45,7 @@ nav{
 .btn1:hover{
     font-weight: 400;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .head-content{
@@ -90,6 +91,7 @@ nav{
 .btn2:hover{
     background-color: #fa8fd3;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .header-img{
@@ -156,7 +158,7 @@ main{
     background-color: #ffffff;
     border-radius: 10px;
     position: absolute;
-    top: 1730px;
+    top: 1750px;
     left: 340px;
     text-align: center;
     height: 280px;
@@ -180,10 +182,16 @@ main{
     border-radius: 50px;
     height: 50%;
     width: 45%;
-    margin: 40px 0px;
+    margin: 15px 0px;
     background-color: #FC52BF;
+    box-shadow: 2px 7px 4px #E5E6EA;
     border: transparent;
+}
 
+.ready-btn:hover{
+    cursor: pointer;
+    background-color: #fa8fd3;
+    transition: 0.5s;
 }
 
 
@@ -195,27 +203,69 @@ footer{
 }
 .footer-container{
     background-color: #00252E;
-    padding: 150px 120px 100px 120px;
-    margin: 300px 50px 100px;
+    padding: 250px 85px 100px 90px;
     display: flex;
 }
-td{
-    padding: 10px 20px;
+
+.logo-2{
+   padding-left: 20px;
 }
 
-td, .foot-p{
+td{
+    padding: 20px;
+}
+
+ion-icon:hover, i:hover{
+    cursor: pointer;
+} 
+
+.footer2, .footer3{
+    padding: 67px;
+}
+
+td, .foot-p a{
     color: #ffffff;
     font-size: 18px;
     text-decoration: none;
 }
 
-.foot-ic{
+.foot-p a:hover{
+    text-decoration: underline;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.footer4{
+    margin-top: 82px;
+}
+
+.foot-si{
     color: #ffffff;
+    margin: 0px 20px;
+    padding:10px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+
+.foot-si:hover{
+    cursor: pointer;
+    color: #FC52BF;
+    border: 1px solid #FC52BF;
+    transition: 0.5s;
 }
 
 .ft-copy{
     color: #ffffff;
+    font-size: 14px;
+    margin-top: 260px ;
 }
 
 
 
+/* Media queries */
+
+@media screen and (max-width: 1440px ){
+    
+}
