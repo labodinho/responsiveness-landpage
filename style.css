@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:wght@200;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Open+Sans:wght@700&family=Poppins:wght@200;400;500;600;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+/* font-family: 'Open Sans', sans-serif; */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -16,7 +24,7 @@ nav{
     justify-content: space-between;
 }
 
-img, .btn1{
+.logo-1, .btn1{
     margin: 25px 70px;
 }
 
@@ -26,16 +34,17 @@ img, .btn1{
     box-shadow: 0px 3px 5px #434F4E;
     font-size: 20px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     border: transparent;
     border-radius: 20px;
     padding: 15px;
     width: 13%;
+    transition: 0.5s;
 }
 
 .btn1:hover{
     font-weight: 400;
     cursor: pointer;
-    transition-duration: 0.5s;
 }
 
 .head-content{
@@ -52,6 +61,7 @@ img, .btn1{
     color: #02242C;
     font-size: 55px;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
     margin-top: 150px;
 }
 
@@ -59,6 +69,7 @@ img, .btn1{
     color: #0E2E34;
     font-size: 18px;
     font-weight: 400;
+    font-family: 'Poppins', sans-serif;
     line-height: 30px;
     margin-top: 40px;
 }
@@ -67,7 +78,7 @@ img, .btn1{
     color: #ffffff;
     font-size: 15px;
     font-weight: 600;
-    /* font-family: ; */
+    font-family: 'Poppins', sans-serif;
     border-radius: 50px;
     height: 60px;
     width: 53%;
@@ -112,6 +123,7 @@ img, .btn1{
     color: #12272D;
     font-size: 40px;
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
     line-height: 90px;
 }
 
@@ -119,6 +131,7 @@ img, .btn1{
     color: #B8BDBF;
     font-size: 18px;
     font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
     line-height: 30px;
     width: 65%;
 }
@@ -126,6 +139,7 @@ img, .btn1{
 .main1-img,.main2-img,.main3-img{
     width: 80%;
     height: auto;
+    margin: 40px 10px;
 }
 
 .main2-img{
@@ -155,13 +169,14 @@ main{
 .ready-txt{
     font-size: 45px;
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .ready-btn{
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
-    /* font-family: ; */
+    font-family: 'Open Sans', sans-serif;
     border-radius: 50px;
     height: 50%;
     width: 45%;
@@ -175,12 +190,32 @@ main{
 /* FOOTER */
 footer{
     background-color: #00252E;
+    font-family: 'Open Sans', sans-serif; 
   
 }
 .footer-container{
     background-color: #00252E;
-    padding: 120px;
-    margin: 100px 50px;
+    padding: 150px 120px 100px 120px;
+    margin: 300px 50px 100px;
+    display: flex;
 }
+td{
+    padding: 10px 20px;
+}
+
+td, .foot-p{
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.foot-ic{
+    color: #ffffff;
+}
+
+.ft-copy{
+    color: #ffffff;
+}
+
 
 
