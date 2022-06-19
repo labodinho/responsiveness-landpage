@@ -56,11 +56,12 @@ nav{
 
 .head-text{
     width: 60%;
+    padding-right: 100px;
 }
 
 .head-txt1{
     color: #02242C;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     margin-top: 150px;
@@ -72,7 +73,7 @@ nav{
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     line-height: 30px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .btn2{
@@ -83,7 +84,7 @@ nav{
     border-radius: 50px;
     height: 60px;
     width: 53%;
-    margin: 40px 0px;
+    margin: 10px 0px;
     background-color: #FC52BF;
     border: transparent;
 }
@@ -95,8 +96,8 @@ nav{
 }
 
 .header-img{
-    width: 90%;
-    height: auto; 
+    width: 100%;
+    height: 73vh;
 }
 
 
@@ -267,5 +268,7 @@ p{
 /* Media queries */
 
 @media screen and (max-width: 1440px ){
-    
+    .head-content{
+        margin: 25px 70px;
+    }
 }
