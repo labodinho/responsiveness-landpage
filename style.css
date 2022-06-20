@@ -645,21 +645,21 @@ p {
     }
 
     .ready {
-        top: 1840px;
-        left: 162px;
-        height: 200px;
-        padding: 20px;
+        top: 2280px;
+        left: 90px;
+        height: 150px;
+        padding: 10px;
     }
     .ready-txt {
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 600;
     }
     
     .ready-btn {
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
         height: 35%;
-        width: 50%;
+        width: 70%;
         margin: 5px 0px;
     }
 
