@@ -698,6 +698,7 @@ p {
 
     .footer4 {
         margin-top: 82px;
+        margin-left: 50px;
     }
 
     .foot-si {
@@ -802,7 +803,7 @@ p {
 
     .footer2,
     .footer3 {
-        padding: 15px 53px;
+        padding: 15px 78px;
         
     }
 
@@ -980,7 +981,7 @@ p {
 
     .footer2,
     .footer3 {
-        padding: 12px 39px;
+        padding: 8px 77px;
     }
 
     td,
@@ -998,7 +999,7 @@ p {
     }
 
     .foot-si {
-        margin: 0px 40px;
+        margin: 0px 22px;
         padding: 10px;
     }
 
