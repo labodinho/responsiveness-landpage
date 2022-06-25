@@ -710,7 +710,7 @@ p {
 
 @media screen and (max-width: 385px){
     .ready {
-        top: 2700px;
+        top: 2300px;
         left: 80px;
         height: 150px;
         padding: 10px;
