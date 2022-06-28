@@ -762,6 +762,13 @@ p {
 
 }
 
+@media screen and (max-width: 385px), screen and (max-height:854px){
+    .ready{
+        top: 2720px;
+        left: 80px;
+    }
+}
+
 @media screen and (max-width: 375px){
     .btn1 {
         padding: 5px;
