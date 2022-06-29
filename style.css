@@ -402,6 +402,9 @@ p {
         height: 300px;
         padding: 40px;
     }
+    .footer2, .footer3 {
+        padding: 22px;
+    }
 
 }
 
@@ -509,8 +512,8 @@ p {
 
     .ready {
         top: 1900px;
-        left: 162px;
-        height: 200px;
+        left: 166px;
+        height: 220px;
         padding: 20px;
     }
     .ready-txt {
@@ -536,10 +539,19 @@ p {
     }
 }
 
+@media screen and (max-width:688px){
+    .ready {
+        top: 2220px;
+        left: 160px;
+        height: 220px;
+        padding: 20px;
+    }
+} 
+
 @media screen and (max-width:600px) {
     .ready {
         top: 1900px;
-        left: 162px;
+        left: 136px;
         height: 200px;
         padding: 20px;
     }
@@ -737,7 +749,7 @@ p {
 
 @media screen and (max-width:414px){
     .ready {
-        top: 2830px;
+        top: 2707px;
         left: 80px;
         height: 150px;
         padding: 10px;
@@ -753,11 +765,32 @@ p {
     }
 } 
 
+@media screen and (max-width:393px){
+    .ready {
+        top: 2694px;
+        left: 72px;
+        height: 160px;
+        padding: 20px;
+    }
+    .ready-txt {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .ready-btn {
+        font-size: 12px;
+        font-weight: 400;
+        height: 25%;
+        width: 75%;
+        margin: 10px 0px;
+    }
+}
+
 
 
 @media screen and (max-width: 385px){
     .ready {
-        top: 2300px;
+        top: 2708px;
         left: 80px;
         height: 150px;
         padding: 10px;
@@ -854,6 +887,43 @@ p {
         margin-top: 50px;
     }
 }
+
+ @media screen and (max-width:360px){
+    .ready {
+        top: 2677px;
+        left: 72px;
+        height: 180px;
+        padding: 20px;
+    }
+    .ready-txt {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .ready-btn {
+        font-size: 12px;
+        font-weight: 400;
+        height: 25%;
+        width: 76%;
+        margin: 10px 0px;
+    }
+    .footer4 {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .foot-si {
+        margin: 0px 15px;
+        padding: 10px;
+    }
+
+    .ft-copy {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 50px;
+    }
+} 
+    
 
 
 
