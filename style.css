@@ -536,6 +536,27 @@ p {
     }
 }
 
+@media screen and (max-width:600px) {
+    .ready {
+        top: 1900px;
+        left: 162px;
+        height: 200px;
+        padding: 20px;
+    }
+    .ready-txt {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .ready-btn {
+        font-size: 12px;
+        font-weight: 400;
+        height: 35%;
+        width: 65%;
+        margin: 5px 0px;
+    }
+}
+
 @media screen and (max-width:425px){
 
     header {
